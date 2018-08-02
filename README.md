@@ -2,6 +2,14 @@
 
 a convenient way to use Notifications，reduce hardcode
 
+## Installation
+
+```ruby
+pod 'TypedNotification'
+```
+
+or just copy the file to your project
+
 ## Example
 
 - Define
@@ -42,3 +50,6 @@ let token = TestNotificaiton.observer(for: .test) { (testObj) in
     print("\(testObj.num) \(testObj.str)")
 }
 ```
+\## License
+
+**TypedNotification** is under MIT license. See the [LICENSE](LICENSE) file for more info.
